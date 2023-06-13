@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyNFT.sol": "String"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyNFT.sol": {
+			"keccak256": "0x34443bdc04b25a23dbbc6c3b9d27e41fe61fa15fe017922700af2b9903c9465c",
+			"urls": [
+				"bzz-raw://c7a87e952655cef0013d9e7c7ae955e203a766e7dcf293cb6c9074160de1c3aa",
+				"dweb:/ipfs/QmYjE9coN1JmwhxSNJ3QDLZnRvYvJVdtqdxUXG4MiRwuz4"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "assertNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/14_Assert.sol": "lec25"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/14_Assert.sol": {
+			"keccak256": "0xf5f688e4912e975a28a091023642e276813ab5173f2cbae4e762ea150946fa65",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://521939a597983b9f5c8d22f215327d4fc09ef3fcd80514272fcaaf5c9f853aac",
+				"dweb:/ipfs/Qmax6RKXQDHZ2kgceFwhu3Z6XKrdTVWnrHYSggcL45ZM13"
+			]
+		}
+	},
+	"version": 1
+}

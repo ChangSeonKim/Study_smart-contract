@@ -1,0 +1,38 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "These functions deal with verification of Merkle Trees proofs.  * The proofs can be generated using the JavaScript library https://github.com/miguelmota/merkletreejs[merkletreejs]. Note: the hashing algorithm should be keccak256 and pair sorting should be enabled.  * See `test/utils/cryptography/MerkleProof.test.js` for some examples.  * WARNING: You should avoid using leaf values that are 64 bytes long prior to hashing, or use a hash function other than keccak256 for hashing leaves. This is because the concatenation of a sorted pair of internal nodes in the merkle tree could be reinterpreted as a leaf value.",
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyNFT.sol": "MerkleProof"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyNFT.sol": {
+			"keccak256": "0x34443bdc04b25a23dbbc6c3b9d27e41fe61fa15fe017922700af2b9903c9465c",
+			"urls": [
+				"bzz-raw://c7a87e952655cef0013d9e7c7ae955e203a766e7dcf293cb6c9074160de1c3aa",
+				"dweb:/ipfs/QmYjE9coN1JmwhxSNJ3QDLZnRvYvJVdtqdxUXG4MiRwuz4"
+			]
+		}
+	},
+	"version": 1
+}

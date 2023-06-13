@@ -1,0 +1,202 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "checker",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "car_id",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "check_res",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "check_etc",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "check_time",
+						"type": "uint256"
+					}
+				],
+				"name": "AddCheck",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_car_id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_check_res",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_check_etc",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_check_time",
+						"type": "uint256"
+					}
+				],
+				"name": "AddCheckList",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "GetCheck",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TotalCount",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "checks",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "checker",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "car_id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "check_res",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "check_etc",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "check_time",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BusSafe.sol": "bus_safe"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BusSafe.sol": {
+			"keccak256": "0x87441f79e97412f7940b76477a7a741e783c517ba4215ea010be39124f756d63",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4ff65f7cf8685309068f32ce5084067bdbd660a5afe5dc69a8c9e9dbaa927f64",
+				"dweb:/ipfs/QmUSSvYaXw2vk5PuU3wrqhyPwWUqQncq5PfZWDzoEyU8zY"
+			]
+		}
+	},
+	"version": 1
+}
